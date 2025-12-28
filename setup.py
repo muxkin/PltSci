@@ -2,10 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name="pltsci",
-    version="0.1.0",
+    version="0.2.0",
     description="A utility library for matplotlib plotting configuration",
     author="Muxkin",
     author_email="muxkin@foxmail.com",
+    url="https://github.com/muxkin/pltsci",
+    project_urls={
+        "Bug Tracker": "https://github.com/muxkin/pltsci/issues",
+        "Source Code": "https://github.com/muxkin/pltsci",
+    },
     packages=find_packages(),
     install_requires=[
         "matplotlib",
