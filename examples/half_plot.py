@@ -19,8 +19,9 @@ set_ticks(ax, xrange=(0, 10, 2), yrange=(0, 22000, 5000))
 # 添加标签和图例
 ax.set_xlabel("x", fontsize=10)
 ax.set_ylabel("y", fontsize=10)
-ax.legend(fontsize=8)
+ax.legend(frameon=False, fontsize=10)
+
 
 plt.tight_layout()
-fig.savefig("examples/half_plot.svg", bbox_inches="tight")
+fig.savefig("examples/half_plot.svg", bbox_inches="tight", transparent=True)
 # fig.savefig("examples/half_plot.jpg", bbox_inches="tight", dpi=1200) # 位图记得设置高分辨率

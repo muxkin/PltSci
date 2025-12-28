@@ -116,4 +116,4 @@ def half_plot_set(ax) -> None:
     ax.tick_params(axis="both", which="minor", length=1)
 
     # 设置刻度字体大小为6
-    ax.tick_params(axis="both", which="major", labelsize=6)
+    ax.tick_params(axis="both", which="major", labelsize=8)

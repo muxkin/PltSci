@@ -18,8 +18,8 @@ set_ticks(ax, xrange=(0, 10, 2), yrange=(-1.5, 1.5, 0.5))
 # 添加标签和图例
 ax.set_xlabel("x", fontsize=12)
 ax.set_ylabel("y", fontsize=12)
-ax.legend()
+ax.legend(frameon=False, fontsize=12)
 
 plt.tight_layout()
-fig.savefig("examples/whole_plot.svg", bbox_inches="tight")
+fig.savefig("examples/whole_plot.svg", bbox_inches="tight", transparent=True)
 # fig.savefig("examples/whole_plot.jpg", bbox_inches="tight", dpi=1200) # 位图记得设置高分辨率
