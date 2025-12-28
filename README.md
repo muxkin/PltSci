@@ -40,6 +40,7 @@ fig.savefig("examples/whole_plot.svg", bbox_inches="tight")
 ```
 
 结果：
+
 ![whole_plot_example](examples/whole_plot.svg)
 
 **示例：创建一个半宽的科学绘图**
