@@ -1,6 +1,6 @@
 [project]
 name = "pltsci"
-version = "0.1.0"
+version = "0.2.0"
 description = "A utility library for matplotlib plotting configuration"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -26,6 +26,11 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Visualization",
 ]
+
+[project.urls]
+Homepage = "https://github.com/muxkin/pltsci"
+"Bug Tracker" = "https://github.com/muxkin/pltsci/issues"
+"Source Code" = "https://github.com/muxkin/pltsci"
 
 [build-system]
 requires = ["setuptools>=61.0"]
