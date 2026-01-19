@@ -29,8 +29,7 @@ def whole_plot_set(
     # 设置线宽
     plt.rcParams["lines.linewidth"] = 1
     plt.rcParams["font.family"] = ", ".join(font)
-    plt.rcParams["font.family"] = "Times new roman, SimSun"  # 设置字体为Times New Roman
-    plt.rcParams["font.serif"] = ["Times New Roman", "SimSun"]
+    plt.rcParams["font.serif"] = font
     plt.rcParams["mathtext.fontset"] = math_font
     plt.rcParams["xtick.direction"] = "in"  # 设置x刻度线朝内
     plt.rcParams["ytick.direction"] = "in"  # 设置y刻度线朝内
